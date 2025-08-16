@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -8,9 +9,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex-shrink-0">
-              <img
+              <Image
                 src="/logo.jpg"
                 alt="Account Intelligence Logo"
+                width={120}
+                height={48}
                 className="h-12 w-auto"
               />
             </div>
@@ -171,7 +174,7 @@ export default function Home() {
                 </p>
                 <p>
                   Our team of experienced professionals is dedicated to providing exceptional service and
-                  innovative solutions that help businesses thrive in today's competitive landscape. We believe
+                  innovative solutions that help businesses thrive in today&apos;s competitive landscape. We believe
                   in building lasting relationships based on trust, expertise, and results.
                 </p>
               </div>
@@ -321,9 +324,9 @@ export default function Home() {
             {/* Contact Information */}
             <div className="space-y-8">
               <div className="text-center md:text-left">
-                <h3 className="text-3xl font-bold text-white mb-6">Let's Start a Conversation</h3>
+                <h3 className="text-3xl font-bold text-white mb-6">Let&apos;s Start a Conversation</h3>
                 <p className="text-blue-100 text-lg leading-relaxed mb-8">
-                  We're here to help you navigate your financial journey. Reach out to us through any of the channels below.
+                  We&apos;re here to help you navigate your financial journey. Reach out to us through any of the channels below.
                 </p>
               </div>
 
@@ -385,9 +388,11 @@ export default function Home() {
               {/* Company Info */}
               <div className="lg:col-span-2">
                 <div className="mb-6">
-                  <img
+                  <Image
                     src="/logo.jpg"
                     alt="Account Intelligence Logo"
+                    width={160}
+                    height={64}
                     className="h-16 w-auto mb-4"
                   />
                   <p className="text-gray-300 text-lg leading-relaxed mb-6">

@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
@@ -14,7 +16,7 @@ export default function Home() {
             </div>
             <div className="hidden lg:block">
               <div className="ml-10 flex items-center space-x-8">
-                <a href="/" className="text-white hover:text-blue-200 px-3 py-2 text-base font-medium transition-colors">Home</a>
+                <Link href="/" className="text-white hover:text-blue-200 px-3 py-2 text-base font-medium transition-colors">Home</Link>
                 <a href="#services" className="text-white hover:text-blue-200 px-3 py-2 text-base font-medium transition-colors">Services</a>
                 <a href="#about" className="text-white hover:text-blue-200 px-3 py-2 text-base font-medium transition-colors">About Us</a>
                 <a href="#contact" className="text-white hover:text-blue-200 px-3 py-2 text-base font-medium transition-colors">Contact</a>
